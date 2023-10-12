@@ -3,10 +3,17 @@
 #include <string>
 #include <windows.h>
 using namespace std;
-
+/* 1. while Ñ­»·Óï¾ä */
 int main(int argc,char *argv[]){
 
-	cout << "hello world" << endl;
+	int i = 1;
+	int sum = 0;
+
+	while (i <= 100) {
+		sum += i;
+		i++;
+	}
+	cout << sum << endl;
 
 
 	system("pause");
