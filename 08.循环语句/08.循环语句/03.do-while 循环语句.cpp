@@ -4,16 +4,17 @@
 #include <windows.h>
 using namespace std;
 
-/* 1. while Ñ­»·Óï¾ä */
-int main0101(int argc,char *argv[]){
+int main(int argc,char *argv[]){
 
-	int i = 1;
+	//1+2+3+++.....100.
 	int sum = 0;
-	while (i <= 100) {
+	int i = 1;
+	do {
 		sum += i;
 		i++;
-	}	
-	cout <<"sum="<< sum << endl;
+	} while (i <= 100);
+	cout << "sum=" << sum << endl;
+
 	system("pause");
 	return 0;
 }
