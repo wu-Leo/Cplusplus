@@ -4,7 +4,7 @@
 #include <windows.h>
 using namespace std;
 
-int main(int argc,char *argv[]){
+int main0301(int argc,char *argv[]){
 
 	//1+2+3+++.....100.
 	int sum = 0;
