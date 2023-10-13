@@ -4,7 +4,7 @@
 #include <windows.h>
 using namespace std;
 /* 1. Ñ­»·Ç¶Ì×. */
-int main(int argc,char *argv[]){
+int main0601(int argc,char *argv[]){
 
 	int count = 0;
 	for (int i = 0; i < 24; i++) {
@@ -16,8 +16,6 @@ int main(int argc,char *argv[]){
 			}
 		}
 	}
-
-
 	system("pause");
 	return 0;
 }
